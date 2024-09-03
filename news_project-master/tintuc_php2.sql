@@ -78,8 +78,8 @@ CREATE TABLE `configs` (
 
 INSERT INTO `configs` (`id`, `config_name`, `config_value`) VALUES
 (1, 'numofpost', '12'),
-(2, 'title', 'Website tin tức số 1'),
-(4, 'description', 'Website tin tức số 1 Việt Nam'),
+(2, 'title', 'Website tin tức'),
+(4, 'description', 'Website tin tức'),
 (5, 'favicon', 'favicon.png');
 
 -- --------------------------------------------------------
@@ -100,7 +100,7 @@ CREATE TABLE `forgot_password` (
 --
 
 INSERT INTO `forgot_password` (`id`, `email`, `created_date`, `token`) VALUES
-(0, 'b0y9x199x@gmail.com', '1969-12-31 08:33:37', 'f0ae0de8b5e16892bd359080106cf04a');
+(0, 'wlongtran2@gmail.com', '1969-12-31 08:33:37', 'f0ae0de8b5e16892bd359080106cf04a');
 
 -- --------------------------------------------------------
 
@@ -273,7 +273,7 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`id`, `email`, `username`, `fullname`, `avatar`, `password`, `about`, `group_id`, `remember_token`, `expired_time`) VALUES
 (1, 'quest@quest.com', 'quest', 'quest', 'quest', 'quest', '', 1, '', '0000-00-00 00:00:00'),
-(3, 'b0y9x199x@gmail.com', 'admin', 'Tiến Nguyễn', 'IMG_d6116a7ef6ccbb11c005381589728005.jpg', 'c4ca4238a0b923820dcc509a6f75849b', '', 1, '_token_92059e46daabc0c3e705d495bbb4ccaf4eb81b0b6f98b6aa', '2017-10-26 15:10:26');
+(3, 'wlongtran2@gmail.com', 'admin', 'Thuận Anh', 'chutich.jpg', 'c4ca4238a0b923820dcc509a6f75849b', '', 1, '_token_92059e46daabc0c3e705d495bbb4ccaf4eb81b0b6f98b6aa', '2024-09-02 15:10:26');
 
 --
 -- Chỉ mục cho các bảng đã đổ
